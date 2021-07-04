@@ -215,7 +215,7 @@ ol > a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("./assets/desktop.jpg");
+    background: url("../assets/desktop.jpg");
     background-size: cover;
 }
 
@@ -627,7 +627,7 @@ ol > a{
 /* Contact Us Section */
 
 .terminal-stackr-contact-section{
-    background: url("./assets/contact/redox-02.webp");
+    background: url("../assets/contact/redox-02.webp");
 }
 
 .terminal-stackr-contact-us-message{
