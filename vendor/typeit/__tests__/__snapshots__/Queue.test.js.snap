@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It should only return non-executed items. 1`] = `
+Array [
+  Array [
+    "value2",
+    null,
+    Object {
+      "executed": false,
+    },
+  ],
+  Array [
+    "value3",
+    null,
+    Object {},
+  ],
+]
+`;
+
+exports[`It should reset properly by marking each item as having not yet been executed. 1`] = `
+Array [
+  Array [
+    "first-action",
+    null,
+    Object {
+      "executed": false,
+    },
+  ],
+  Array [
+    "value1",
+    null,
+    Object {
+      "executed": false,
+    },
+  ],
+  Array [
+    "value2",
+    null,
+    Object {
+      "executed": false,
+    },
+  ],
+  Array [
+    "value3",
+    null,
+    Object {
+      "executed": false,
+    },
+  ],
+  Array [
+    "value4",
+    null,
+    Object {
+      "executed": false,
+    },
+  ],
+  Array [
+    "value5",
+    null,
+    Object {
+      "executed": false,
+    },
+  ],
+]
+`;
+
+exports[`It should set initial steps properly. 1`] = `
+Array [
+  Array [
+    "value1",
+    null,
+    Object {},
+  ],
+  Array [
+    "value2",
+    null,
+    Object {},
+  ],
+  Array [
+    "value3",
+    null,
+    Object {},
+  ],
+]
+`;
+
+exports[`add() It should add multiple steps passed at once. 1`] = `
+Array [
+  Array [
+    "first-action",
+    null,
+    Object {},
+  ],
+  Array [
+    [Function],
+    1,
+    Object {},
+  ],
+  Array [
+    [Function],
+    2,
+    Object {},
+  ],
+  Array [
+    [Function],
+    3,
+    Object {},
+  ],
+]
+`;
+
+exports[`add() It should add steps properly. 1`] = `
+Array [
+  Array [
+    "first-action",
+    null,
+    Object {},
+  ],
+  Array [
+    "step1",
+    null,
+    Object {},
+  ],
+  Array [
+    "step2",
+    null,
+    Object {},
+  ],
+]
+`;
