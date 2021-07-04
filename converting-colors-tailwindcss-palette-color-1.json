@@ -1,0 +1,20 @@
+/**
+ * To use these colors in Tailwind, you need to extend your tailwind.config.js file.
+ *  
+ * For details see:
+ * https://tailwindcss.com/docs/customizing-colors/#extending-the-default-palette
+ *  
+ * To use own names for the colors, change the node names "main-color-*" and "color-*".
+ */
+{
+    --primary-color-1:#211d30;
+    --primary-color-2: #241f33;
+    --primary-color-3: #373050;
+    --primary-color-4: #574D7F;
+    --primary-color-5: #7F7991;
+    --primary-color-6: #9993AB;
+    --primary-color-7: #B4ADC6;
+    --primary-color-8: #CFC9E2;
+    --primary-color-9: #ECE5FF;
+    --secondary-color-1: #00fdf0;
+}
